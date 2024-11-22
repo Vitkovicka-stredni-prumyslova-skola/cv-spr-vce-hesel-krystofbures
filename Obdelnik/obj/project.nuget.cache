@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "AqkfUZMxzWI=",
+  "dgSpecHash": "U4aDU6Zru8A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\GitHub\\OOP-C--temple\\Obdelnik\\Obdelnik.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\KryštofBureš\\Documents\\cv-spr-vce-hesel-krystofbures\\Obdelnik\\Obdelnik.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KryštofBureš\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\KryštofBureš\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\KryštofBureš\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\KryštofBureš\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
   "logs": []
 }
