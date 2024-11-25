@@ -8,7 +8,7 @@ namespace SpravceHesel
 
       Heslo mojeheslo = new Heslo();
 
-      Console.WriteLine(mojeheslo.);
+      Console.WriteLine(mojeheslo.MaxDelkaHesla());
     }
   }
 }
