@@ -1,36 +1,41 @@
-namespace Dedeicnost
+namespace Dedicnost
 {
-    public abstract class Kniha
+    public class Kniha 
     {
         public string Nazev;
         public string Autor;
-        public int RokVydani; 
-        public static string VypsiInformaci();
+        public int RokVydani;
 
-        //Konstruktor
         public Kniha(string nazev, string autor, int rokVydani) 
         {
-            Nazev = nazev;
-            Autor = autor;
-            RokVydani = rokVydani;
+            this.Nazev = nazev;
+            this.Autor = autor;
+            this.RokVydani = rokVydani;
         }
 
-        public virtual string VypisInformaci()
+
+        public virtual string VypisInformace()
         {
-            return Console.WriteLine(nazev", " + autor", " + rokVydani);
+            return "Název:" + Nazev + ", Autor: " + Autor + ", Rok vydání: " + RokVydani;
         }
+
     } 
 
-    //Class Ebook
-     public class Ebook : Kniha
+      public class Ebook : Kniha 
     {
         public double VelikostSouboru;
         public string Format;
 
-        public override string VypisInformaci()
+        //Konstruktor pro Ebook base = přistup k členum konstruktorů
+        public Ebook(string nazev, string autor, int rokVydani, string Format, double VelikostSouboru) : base(nazev, autor, rokVydani)
         {
-            return Console.WriteLine(nazev", " + autor", " + rokVydani", " + VelikostSouboru", " + Format);
+            this.VelikostSouboru = velikostSouboru;
+            this.Format = format;
         }
 
+        public override string VypisInformace()
+        {
+            return base.VypisInformace() + ", Velikost Souboru: " + velikostSouboru + ", formát: " + format;
+        }
     }
 }
