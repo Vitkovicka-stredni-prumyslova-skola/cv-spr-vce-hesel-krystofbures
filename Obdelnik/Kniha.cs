@@ -8,7 +8,7 @@ namespace Dedeicnost
         public static string VypsiInformaci();
 
         //Konstruktor
-        public Kniha(string nazev, string autor, int rokVydani)
+        public Kniha(string nazev, string autor, int rokVydani) 
         {
             Nazev = nazev;
             Autor = autor;
@@ -21,6 +21,7 @@ namespace Dedeicnost
         }
     } 
 
+    //Class Ebook
      public class Ebook : Kniha
     {
         public double VelikostSouboru;
