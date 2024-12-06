@@ -35,3 +35,10 @@ C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\obj\Deb
 C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\obj\Debug\net7.0\Obdelnik.dll
 C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\obj\Debug\net7.0\refint\Obdelnik.dll
 C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\obj\Debug\net7.0\Obdelnik.pdb
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\bin\Debug\net7.0\Obdelnik.exe
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\bin\Debug\net7.0\Obdelnik.deps.json
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\bin\Debug\net7.0\Obdelnik.runtimeconfig.json
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\bin\Debug\net7.0\Obdelnik.dll
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\bin\Debug\net7.0\Obdelnik.pdb
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\obj\Debug\net7.0\Obdelnik.genruntimeconfig.cache
+C:\Users\KryštofBureš\Documents\cv-spr-vce-hesel-krystofbures\Obdelnik\obj\Debug\net7.0\ref\Obdelnik.dll

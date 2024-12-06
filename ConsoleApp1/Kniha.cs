@@ -16,6 +16,7 @@ namespace ConsoleApp
 
             Knihovna.PridatKnihu(this);
         }
+        
 
         //Vypis informací   VIRTUAL - metoda co muže byt přepsana a upravena
         public virtual string VypisInformace()
@@ -47,7 +48,7 @@ namespace ConsoleApp
 
     public static class Knihovna
     {
-        public static int PocetKnih;
+        public static int PocetKnih = 0;
 
         //Tento kód vytváří statický seznam knih který je přístupný z celé třídy
         public static List<Kniha> knihovna = new List<Kniha>();
@@ -55,6 +56,7 @@ namespace ConsoleApp
         //Tento kód definuje statickou metodu PridatKnihu, která přidá Knihu
         public static void PridatKnihu(Kniha kniha)
         {
+            knihovna.Add(kniha);
             //Zvýší počet knih o 1
             PocetKnih++;
         }

@@ -1,3 +1,5 @@
+using SpravceHesel;
+
 namespace SpravceHesel
 {
 
@@ -9,6 +11,9 @@ namespace SpravceHesel
       Heslo mojeheslo = new Heslo();
 
       Console.WriteLine(mojeheslo.MaxDelkaHesla());
+
+
+      
     }
   }
 }

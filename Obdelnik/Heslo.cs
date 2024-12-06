@@ -33,8 +33,8 @@ namespace SpravceHesel
         }
 
         public static String GeneraceHesla(int pocetZnakuHesla){
-            String [] seznamZnaku = maleZnaky 
-            return 0;
+            //String [] seznamZnaku = maleZnaky 
+            return "";
         }
     }
 }
