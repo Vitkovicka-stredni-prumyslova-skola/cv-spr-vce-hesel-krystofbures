@@ -55,6 +55,7 @@ namespace ConsoleApp
         //Tento kód definuje statickou metodu PridatKnihu, která přidá Knihu
         public static void PridatKnihu(Kniha kniha)
         {
+            knihovna.Add(kniha);
             //Zvýší počet knih o 1
             PocetKnih++;
         }
