@@ -14,6 +14,7 @@ namespace ConsoleApp
             this.Autor = autor;
             this.RokVydani = rokVydani;
 
+            //přidává tuto novou instanci do knihovny
             Knihovna.PridatKnihu(this);
         }
         

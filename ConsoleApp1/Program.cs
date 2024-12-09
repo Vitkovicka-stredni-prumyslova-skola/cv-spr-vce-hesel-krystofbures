@@ -13,6 +13,7 @@ namespace ConsoleApp
      Kniha kniha3 = new Kniha("To", "Kning", 1997);
     Console.WriteLine(kniha1.VypisInformace()) ;
     Console.WriteLine(kniha2.VypisInformace()) ;
+    Console.WriteLine(kniha3.VypisInformace()) ;
 
    Console.WriteLine("POčet knih v kniohovně:" + Knihovna.PocetKnih);
 Console.WriteLine("POčet knih v kniohovně:" + Knihovna.knihovna.Count);
